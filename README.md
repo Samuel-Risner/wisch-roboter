@@ -1,1 +1,1 @@
-# wisch-robotor
+# wisch-robotor - NodeMCU core
