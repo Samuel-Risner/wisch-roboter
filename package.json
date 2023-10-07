@@ -1,0 +1,23 @@
+{
+  "name": "wisch-roboter",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build_tw": "tailwindcss -i ./input.css -o ./output.css --minify",
+    "watch_tw": "tailwindcss -i ./input.css -o ./output.css --watch --minify",
+    "build": "npm run build_tw && python kompilieren.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samuel-Risner/wisch-roboter.git#web-ui"
+  },
+  "author": "Samuel Risner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Samuel-Risner/wisch-roboter/issues"
+  },
+  "homepage": "https://github.com/Samuel-Risner/wisch-roboter/tree/web-ui#readme",
+  "dependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
