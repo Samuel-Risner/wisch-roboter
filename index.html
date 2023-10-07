@@ -106,14 +106,11 @@
         WISCH_KNOPF.onclick = wischKnopfOnClick;
 
         function fetch_ausfuehren(url, wennErfolgreich) {
-            console.log("foo");
-            console.log(url);
-            /** fetch(url).then(() => {
+            fetch(url).then(() => {
                 (wennErfolgreich || (() => {}))();
             }).catch(() => {
                 alert("Es konnte keine Verbindung mit dem Server hergestellt werden.");
-            }); */
-            (wennErfolgreich || (() => {}))();
+            });
         }
     </script>
 
